@@ -1,6 +1,6 @@
 <a className="gh-badge" href="https://datahub.io/core/co2-ppm"><img src="https://badgen.net/badge/icon/View%20on%20datahub.io/orange?icon=https://datahub.io/datahub-cube-badge-icon.svg&label&scale=1.25" alt="badge" /></a>
 
-![view on datahub.io](https://datahub.io/@brauliobarahona/CKW_smart_meter_data?_gl=1*bvkdbm*_ga*MTI5ODg4NTcwNy4xNzU4NzI0Mjg5*_ga_R6X92HM43Q*czE3NTkxNzc1NDUkbzEwJGcxJHQxNzU5MTc3ODg3JGo2MCRsMCRoMA..)
+[view on datahub.io](https://datahub.io/@brauliobarahona/CKW_smart_meter_data?_gl=1*bvkdbm*_ga*MTI5ODg4NTcwNy4xNzU4NzI0Mjg5*_ga_R6X92HM43Q*czE3NTkxNzc1NDUkbzEwJGcxJHQxNzU5MTc3ODg3JGo2MCRsMCRoMA..)
 
 <a className="gh-badge" href="https://datahub.io/@brauliobarahona/CKW_smart_meter_data?_gl=1*bvkdbm*_ga*MTI5ODg4NTcwNy4xNzU4NzI0Mjg5*_ga_R6X92HM43Q*czE3NTkxNzc1NDUkbzEwJGcxJHQxNzU5MTc3ODg3JGo2MCRsMCRoMA.."><img src="https://badgen.net/badge/icon/View%20on%20datahub.io/orange?icon=https://datahub.io/datahub-cube-badge-icon.svg&label&scale=1.25" alt="badge" /></a>
 This data set contains a small sample of the CKW data set A sorted per smart meter ID, stored as parquet files named with the id field of the corresponding smart meter anonymised data. Example: 027ceb7b8fd77a4b11b3b497e9f0b174.parquet
