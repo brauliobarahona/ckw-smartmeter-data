@@ -3,7 +3,7 @@
   "title": "CKW Smart Meter Data - Electricity Consumption in Canton Lucerne",
   "description": "Anonymised and aggregated smart meter data measuring electricity consumption from the CKW Group, a distribution system operator supplying more than 200,000 end customers in Central Switzerland. This dataset contains a small sample of CKW data set A, with 15-minute interval electricity consumption measurements from individual smart meters, stored as parquet files organized by smart meter ID. The original data covers the period from January 2021 to April 2024.",
   "homepage": "https://zenodo.org/records/13304499",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "created": "2024-08-16",
   "licenses": [
     {
@@ -29,29 +29,6 @@
       "title": "Datensatz A – anonymisierte Smart-Meter-Daten"
     }
   ],
-  "contributors": [
-    {
-      "title": "Lucerne University of Applied Sciences and Arts",
-      "role": "author"
-    }
-  ],
-  "keywords": [
-    "smart meter",
-    "electricity consumption",
-    "energy",
-    "time series",
-    "Switzerland",
-    "Canton Lucerne",
-    "CKW",
-    "open data"
-  ],
-  "temporal": {
-    "start": "2021-01-01",
-    "end": "2024-04-30"
-  },
-  "spatial": {
-    "location": "Canton Lucerne, Switzerland",
-  },
   "resources": [
     {
       "name": "sample Dataset A",
@@ -116,6 +93,29 @@
       "hash": "md5:varies-per-file"
     }
   ],
+  "contributors": [
+    {
+      "title": "Lucerne University of Applied Sciences and Arts",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "smart meter",
+    "electricity consumption",
+    "energy",
+    "time series",
+    "Switzerland",
+    "Canton Lucerne",
+    "CKW",
+    "open data"
+  ],
+  "temporal": {
+    "start": "2021-01-01",
+    "end": "2024-04-30"
+  },
+  "spatial": {
+    "location": "Canton Lucerne, Switzerland",
+  },
   "views": [
     {
       "name": "consumption-timeseries",
