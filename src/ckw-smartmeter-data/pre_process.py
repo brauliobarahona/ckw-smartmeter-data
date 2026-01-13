@@ -1,4 +1,5 @@
-import os, glob
+import os
+import glob
 import pyarrow as pa
 import pyarrow.csv
 import pyarrow.parquet as pq

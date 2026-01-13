@@ -43,16 +43,17 @@
   *Note: prepare the download directories before runnign the scripts
 """
 
-import os, glob, requests
+import os
+import glob
+import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-#import pyarrow as pa
-#import pyarrow.csv
-#import pyarrow.parquet as pq 
-
 import dask
 dask.config.set({'dataframe.query-planning': True})
 import dask.dataframe as dd
+#import pyarrow as pa
+#import pyarrow.csv
+#import pyarrow.parquet as pq 
 
 # convert metadata_parser to a class
 class MetadataParser:
