@@ -68,8 +68,6 @@
         ],
         "primaryKey": ["id", "timestamp"]
       },
-      "bytes": 43929600,
-      "hash": "md5:varies-per-file"
     },
     {
       "name": "smart-meter-timeseries",
@@ -98,9 +96,7 @@
           }
         ],
         "primaryKey": ["id", "timestamp"]
-      },
-      "bytes": 43929600,
-      "hash": "md5:varies-per-file"
+      }
     }
   ],
   "contributors": [
@@ -139,21 +135,6 @@
         "group": "timestamp",
         "series": [
           "value_kwh"
-        ]
-      }
-    },
-    {
-      "name": "daily-consumption",
-      "title": "Daily Aggregated Consumption",
-      "resources": [
-        "smart-meter-timeseries"
-      ],
-      "specType": "simple",
-      "spec": {
-        "type": "bar",
-        "group": "date",
-        "series": [
-          "daily_kwh"
         ]
       }
     }
