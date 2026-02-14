@@ -4,15 +4,20 @@ This data set contains a small sample of the CKW data set A sorted per smart met
 
 ## Data
 
+**!**Clean up and complete datapackage.json
+**!**Create a sample dataset in csv format for visualization
+
 ### Description
 
 ### Sources
 
-## Preparation
+## Quick start
 
-### Processing
+**!**TODO: simple clone and run a scrip or use the cli
 
-Setup workflow to work remotely from VM hosted in Switch engines.
+## Setup remote environment
+
+These are the steps applied to setup the working environment and then parse the CKW in a virtual machine (VM) hosted in Switch engines for the AISOP project. First, setup workflow to work remotely from VM.
 
 In order to authenticate to git and be able to clone the repository, first make sure you have
 - [ ] a github account
@@ -21,29 +26,40 @@ In order to authenticate to git and be able to clone the repository, first make 
 - [ ] a ssh key pair added to your github account
 - [ ] a ssh key pair added to your ssh-agent
 
-1. create a new ssh key pair
+1. Create a new ssh key pair
 ```bash
 ssh-keygen -t rsa -b 4096 -C "hintisberg"
 ssh-keygen -t ecdsa -C "hintisberg in braulio's github account"
 ````
 
-copy the public key to your clipboard
+2. Copy the public key to your clipboard
 
 ```bash
 pbcopy < ~/.ssh/id_rsa.pub
-```
 
-Or simply with `cat ~/.ssh/id_rsa.pub` and then copy from the terminal output.
-
-use standard output to copy the public key to your clipboard and then put it to clipboard
-
-```
+# or with cat and pipe to pbcopy
 cat ~/.ssh/id_rsa.pub | pbcopy
-```
 
-copy to cliboard without pbcopy
-
-```
+# or copy to cliboard without pbcopy
 cat ~/.ssh/id_rsa.pub
 ```
+
+3. Add SSH key to your github account
+
+4. Set SSH agent to remembner your key
+
+```bash
+# Start the ssh-agent in the background
+eval "$(ssh-agent -s)"
+
+# Add your specific key (adjust the filename if you used ecdsa)
+ssh-add ~/.ssh/id_rsa
+```
+
+## TODOs
+
+**!**TODO: rename to ckw_data_parser
+**!**TODO: debug/test : scripts/ckw_download.py --list-only :: prints file tables for both datasets
+**!**TODO: debug/test : scripts/ckw_download.py --dataset a :: shows dataset A files and prompts for selection
+**!**TODO: test download + decompress cycle
 

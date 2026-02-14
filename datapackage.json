@@ -25,8 +25,18 @@
     },
     {
       "name": "Datensatz A",
-      "path": "https://open.data.axpo.com/$web/index.html#dataset-a",
+      "path": "https://axsa4prod4publicdata4sa.blob.core.windows.net/$web/index.html#dataset-a",
       "title": "Datensatz A – anonymisierte Smart-Meter-Daten"
+    },
+    {
+      "name": "Datensatz B",
+      "path": "https://axsa4prod4publicdata4sa.blob.core.windows.net/$web/index.html#dataset-b",
+      "title": "Datensatz B – agregierte Smart-Meter-Daten"
+    },
+    {
+      "name": "CKW 2021-2022",
+      "path": "https://zenodo.org/records/7828796",
+      "title": "Swiss Smart Meter Data - CKW 2021/2022 - anonymized individual metering points"
     }
   ],
   "resources": [
